@@ -1,0 +1,42 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+body {
+	
+	background-image: url("004.jpg");
+	}
+
+h1{color:orange;text-align: center;}
+
+li{display:inline;
+    margin: 0 0 20 100px;
+    padding: 5px 30px 5px 0;} 
+
+.link { color: black; } /* CSS link color (red) */
+.link:hover { color: darkgreen; }
+
+header {
+
+    text-align: center;}
+
+.middle {
+        text-align: center;}
+
+
+button {
+        background-color: #555555;
+        border: none;
+        color: white;
+        padding: 14px 40px;
+        border-radius: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+#more{
+        display: none;
+    }
+button:hover {
+        background-color: #4CAF50;
+        color: white;
+    }

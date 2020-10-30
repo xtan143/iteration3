@@ -1,0 +1,30 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+body {background-image:url("004.jpg");}
+h1{color:orange;text-align: center;}
+header {
+	height: 300px;
+    text-align: center;}
+
+.pright{
+    text-align: center;
+    padding:300px 30px 250px 600px; 
+}
+
+.wrapper {
+	width: 940px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+    background-color: #ffffff;}
+    
+li{display:inline;
+    margin: 0 0 20 100px;
+    padding: 5px 30px 5px 0;} 
+    
+.SearchBar input {
+        height: 30px;
+        width: 450px;
+   }
+
+.link { color: black; } /* CSS link color (red) */
+.link:hover { color: darkgreen; }
